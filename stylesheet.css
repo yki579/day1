@@ -1,8 +1,14 @@
 .header{
-    background-color: burlywood;
-    width:500px;
-    height:80px;
+    background-color: rgb(37, 127, 155);
+    width:1400px;
+    height:150px;
+}
+.study-img {
+    width: 150px;    /* サイズを150ピクセルに */
+    height: auto;    /* 高さは自動調整（縦横比を保つ） */
+    margin-top: 10px; /* 文字との間に少し隙間を作る */
+    border-radius: 8px; /* 角を少し丸くするとオシャレになります */
 }
 .header-title{
-    border-bottom:10px solid black;
+    border-bottom:3px solid black;
 }
