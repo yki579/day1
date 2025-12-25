@@ -12,7 +12,7 @@ header{
 }
 
 
-.header-img {
+.header-img /* 同列に扱う場合、まとめるとわかりやすい！*/{
     width: 180px;    /* サイズを150ピクセルに */
     height: auto;    /* 高さは自動調整（縦横比を保つ） */
     margin-top: 10px; /* 文字との間に少し隙間を作る */
