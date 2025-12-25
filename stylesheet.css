@@ -19,8 +19,10 @@ header{
     border-radius: 8px; /* 角を少し丸くするとオシャレになります */
 }
 
-.header-title{
-    border-bottom:3px solid black;
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.header-title {
+    font-size: 24px;            /* 文字を大きくする */
+    font-weight: bold;         /* 文字を太くする */
+    border-bottom: 5px solid black; /* 下線を太く(5px)して確実に表示させる */
+    padding: 10px;             /* 下線と文字の間に隙間を作る */
+    display: inline-block;     /* 下線の長さを文字の幅に合わせる */
 }
