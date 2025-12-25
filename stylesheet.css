@@ -1,10 +1,32 @@
-.header{
+header{
     background-color: rgb(37, 127, 155);
     width:1400px;
-    height:150px;
+    height:400px;
+}
+.header-list{
+    float:left;
 }
 .study-img {
-    width: 150px;    /* サイズを150ピクセルに */
+    position:absolute;
+    top:30px;
+    left:10px;
+    width: 180px;    /* サイズを150ピクセルに */
+    height: auto;    /* 高さは自動調整（縦横比を保つ） */
+    margin-top: 10px; /* 文字との間に少し隙間を作る */
+    border-radius: 8px; /* 角を少し丸くするとオシャレになります */
+}
+.money-img{position:absolute;
+    top:30px;
+    left: 200px;
+    width: 180px;    /* サイズを150ピクセルに */
+    height: auto;    /* 高さは自動調整（縦横比を保つ） */
+    margin-top: 10px; /* 文字との間に少し隙間を作る */
+    border-radius: 8px; /* 角を少し丸くするとオシャレになります */
+}
+.promote-img{
+    top:30px;
+    left: 390px;
+    width: 180px;    /* サイズを150ピクセルに */
     height: auto;    /* 高さは自動調整（縦横比を保つ） */
     margin-top: 10px; /* 文字との間に少し隙間を作る */
     border-radius: 8px; /* 角を少し丸くするとオシャレになります */
