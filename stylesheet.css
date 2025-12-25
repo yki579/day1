@@ -21,4 +21,6 @@ header{
 
 .header-title{
     border-bottom:3px solid black;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
